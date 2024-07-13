@@ -44,7 +44,7 @@ try {
   console.log(error);
 }
 
-// Feature Request
+// Feature Request F1
 console.log("\nActivity : F1");
 const datatype= (value)=>{
     console.log("Value : ", value);
@@ -53,6 +53,7 @@ const datatype= (value)=>{
 
 datatype("Hello");
 
+// Feature Request F2
 console.log("\nActivity : F2");
 let myLetVariable = 'Initial value';
 console.log('Initial value of myLetVariable:', myLetVariable);
