@@ -63,7 +63,7 @@ console.log("Day :", dayOfTheWeek(3));
 
 // task-05
 const grader = (score) => {
-  switch (score) {
+  switch (true) {
     case score >= 90 && score <= 100:
       return "A";
     case score >= 75 && score <= 89:
@@ -80,7 +80,6 @@ const grader = (score) => {
   }
 };
 console.log("Grade : ", grader(70));
-console.log("We cannot use expressions (score >= 90 && score <= 100) directly inside a switch statement's case clause in JavaScript. switch cases in JavaScript are matched strictly against the value in the switch statement, not against conditions.");
 
 // Activity 4 [Conditional(Ternary) Operator]
 console.log("\n Activity 4");
@@ -121,7 +120,6 @@ console.log("Day :", dayOfTheWeek(0));
 // Feature F4
 console.log("Grade : ", grader(91));
 console.log("Grade : ", grader(34));
-console.log("We cannot use expressions (score >= 90 && score <= 100) directly inside a switch statement's case clause in JavaScript. switch cases in JavaScript are matched strictly against the value in the switch statement, not against conditions.");
 
 
 // Feature F5
