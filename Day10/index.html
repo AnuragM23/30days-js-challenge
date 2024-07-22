@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day10</title>
+    <style>
+        .task{
+            padding-bottom: 50px;
+        }
+        .hide{
+            display: none;
+        }
+        .bg-grey{
+            background-color: gray;
+            font-weight: 700;
+            cursor: pointer;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+    </style>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="task-1 task">
+        <h2 id="txt-1">This is the Task 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto, corporis molestiae iusto similique sequi nemo ipsam, error quia ipsa rem porro nostrum ad autem ipsum nisi reprehenderit consectetur.</h2>
+        <button id="btn-1">Change-Text</button><br>
+    </div>
+    
+    <div class="task-2 task">
+        <img id="img-1" src="https://avatars.githubusercontent.com/u/94822228?s=96&v=4" alt="error">
+        <button id="btn-2">Double-Click</button>
+    </div>
+    
+
+    <div class="task-3 task-4 task">
+        <span class="bg-grey" id="txt-2"> Hello Bro </span>
+    </div>
+
+    <div class="task-5 task-6 task">
+        <input type="text" id="inp-1">
+        <p id="p-1"></p>
+        <p id="p-2"></p>
+    </div> 
+
+    <div class="task-7 task">
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div> 
+
+    <div class="task task-8">
+        <label for="options">Choose an option:</label>
+        <select id="options">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+        </select>
+
+        <p id="selectedValue">Selected value will be displayed here.</p>
+        <p id="selectedContent">Selected Content is shown here</p>
+    </div>
+
+    <div class="task" id="parentElement">
+        <p>Initial child elements:</p>
+        <select class="dynamic-select">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+        </select>
+    </div>
+
+    <button id="addElement">Add new select element</button>
+    <p id="selectedValue">Selected value will be displayed here.</p>
+
+</body>
+</html>
