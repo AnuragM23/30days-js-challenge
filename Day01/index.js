@@ -24,7 +24,9 @@ console.log(
   " ",
   typeof isCorrect,
   " ",
-  typeof profile
+  typeof profile,
+  " ",
+  typeof 2.44
 );
 
 // Activity 4 [Reassigning Variables]
@@ -38,7 +40,7 @@ console.log(`tell me honestly, are you high : ${isHigh}`);
 console.log("\nActivity 5");
 
 try {
-    isCorrect = false;
+  isCorrect = false;
   console.log("works fine");
 } catch (error) {
   console.log(error);
@@ -46,26 +48,29 @@ try {
 
 // Feature Request F1
 console.log("\nActivity : F1");
-const datatype= (value)=>{
-    console.log("Value : ", value);
-    console.log("Datatype : ", typeof(value));
-}
+const datatype = (value) => {
+  console.log("Value : ", value);
+  console.log("Datatype : ", typeof value);
+};
 
 datatype("Hello");
 
 // Feature Request F2
 console.log("\nActivity : F2");
-let myLetVariable = 'Initial value';
-console.log('Initial value of myLetVariable:', myLetVariable);
+let myLetVariable = "Initial value";
+console.log("Initial value of myLetVariable:", myLetVariable);
 
-myLetVariable = 'Modified value';
-console.log('Modified value of myLetVariable:', myLetVariable);
+myLetVariable = "Modified value";
+console.log("Modified value of myLetVariable:", myLetVariable);
 
-const myConstVariable = 'Initial constant value';
-console.log('Initial value of myConstVariable:', myConstVariable);
+const myConstVariable = "Initial constant value";
+console.log("Initial value of myConstVariable:", myConstVariable);
 
 try {
-    myConstVariable = 'Modified constant value';
+  myConstVariable = "Modified constant value";
 } catch (error) {
-    console.log('Error caught when trying to modify myConstVariable:', error.message);
+  console.log(
+    "Error caught when trying to modify myConstVariable:",
+    error.message
+  );
 }
