@@ -92,9 +92,10 @@ isThisNumber('700')
 
 
   // task-7
-  function chill(t) {
+  function chill() {
     return new Promise((resolve, reject) => {
-      if (t == true) {
+      const t = Math.random()%2;
+      if (t == 1) {
         resolve("Great");
       } else {
         reject(new Error("Sad"));
@@ -102,9 +103,9 @@ isThisNumber('700')
     });
   }
   
-  async function handleClill() {
+  handleClill = async () => {
     try {
-      const result = await chill(false);
+      const result = await chill();
       console.log(result);
     } catch (error) {
       console.error(`Caught an error: ${error.message}`);
