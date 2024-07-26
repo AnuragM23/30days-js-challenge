@@ -69,12 +69,7 @@ console.log(Student.objCount);
 console.log("\n Activity 4");
 // task-7 and task-8
 
-Person.prototype.firstName = function(firstName){
-    this.firstName = firstName;
-}
-Person.prototype.lastName = function(lastName){
-    this.lastName = lastName;
-}
+
 Person.prototype.getFullName = function(){
     return  this.firstName+" "+this.lastName;
 }
