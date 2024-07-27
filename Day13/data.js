@@ -16,7 +16,7 @@ export const books = [
   },
 ];
 
-const showBooks = ()=>{
+export const showBooks = ()=>{
     books.map((book)=>{
         console.log();
         console.log(`Title : ${book.title}`);

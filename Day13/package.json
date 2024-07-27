@@ -2,6 +2,7 @@
   "name": "day13",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "parcel index.html",
     "build" : "parcel build index.html"
