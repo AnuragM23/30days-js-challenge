@@ -19,10 +19,5 @@ If you have any questions or just want to connect, you can reach me through the 
 - Twitter: [AnuragM23](https://twitter.com/AnuragM23)
 - LinkedIn: [Anurag Mahato](https://www.linkedin.com/in/anurag-mahato-7b54091aa/)
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to customize this further if needed!
